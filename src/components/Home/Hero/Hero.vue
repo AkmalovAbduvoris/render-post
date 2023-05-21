@@ -59,12 +59,7 @@ function postImg(e){
                 <input type="text" v-model="obj.fullname" placeholder="fullname">
                 <input type="text" v-model="obj.type" placeholder="type">
                 <input type="text" v-model="obj.job" placeholder="job">
-                <button @click="POST">POST</button>
-                <ul>
-                    <li>
-                        {{ ok }}
-                    </li>
-                </ul>
+                <button class="hero__btn" @click="POST">POST</button>
             </div>
         </div>
     </section>
